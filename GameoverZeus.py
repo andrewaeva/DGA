@@ -45,9 +45,9 @@ def seeder(index, salt):
     h.update(m)
     print "\tsalt : " + s.encode("hex")
     h.update(s)
-    d = ("%x" % socket.htons(day)).decode("hex")
-    print "\tday : " + d.encode("hex")
-    h.update(d)
+    #d = ("%x" % socket.htons(day)).decode("hex")
+    #print "\tday : " + d.encode("hex")
+    #h.update(d)
     print "\tsalt : " + s.encode("hex")
     h.update(s)
     seed = h.hexdigest()
@@ -110,7 +110,7 @@ def generateDomain(hashlet):
     return ''.join(result)
 
 
-def engine(salt=0x35190501, maxiter=1000):
+def engine(salt=0x35190501, maxiter=100000):
     domains = []
     #salt = 0x35190501
     #maxiter = 1000
@@ -146,9 +146,9 @@ def engine(salt=0x35190501, maxiter=1000):
 index = 0
 dt = str(datetime.datetime.now()).split(' ')[0]
 domains = engine()
-fp = open("gzdga_domains_" + dt + ".txt", "w")
+fp = open("zeus.txt", "w")
 for domain in domains:
-    a = dt + " | %d | %s\n" % (index, domain)
+    a = "%s\n" % (domain)
     fp.write(a)
     print a
     index += 1

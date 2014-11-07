@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a187123e-154f-4530-825f-2351f2411a94" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dga_detection/dga_domains.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dga_detection/words.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zeus.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameoverZeus.py" afterPath="$PROJECT_DIR$/GameoverZeus.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DGA.iws" />
@@ -15,6 +15,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DGA$GameoverZeus.coverage" NAME="GameoverZeus Coverage Results" MODIFIED="1415373000552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -27,56 +30,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GameoverZeus.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GameoverZeus.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GameoverZeus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="18" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3200">
+            <state line="115" column="19" selection-start="2765" selection-end="2765" vertical-scroll-proportion="0.7268519" vertical-offset="1986" max-vertical-offset="3200">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dds-malicious-domains.csv" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dds-malicious-domains.csv">
+      <file leaf-file-name="hex_codec.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/encodings/hex_codec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="100140">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cryptolocker.pl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cryptolocker.pl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="21" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="680">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="opendns-top-domains.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/opendns-top-domains.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200120">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alexa.csv" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/alexa.csv">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="opendns-random-domains.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/opendns-random-domains.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200120">
+            <state line="41" column="35" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="672" max-vertical-offset="1700">
               <folding />
             </state>
           </provider>
@@ -103,6 +69,7 @@
       <list>
         <option value="$PROJECT_DIR$/GameoverZeus" />
         <option value="$PROJECT_DIR$/cryptolocker" />
+        <option value="$PROJECT_DIR$/GameoverZeus.py" />
       </list>
     </option>
   </component>
@@ -178,6 +145,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -193,7 +161,26 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.GameoverZeus">
+    <configuration default="false" name="GameoverZeus" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DGA" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GameoverZeus.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -344,7 +331,14 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.GameoverZeus" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.GameoverZeus" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
@@ -386,7 +380,11 @@
       <created>1415362643500</created>
       <updated>1415362643500</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add dga_detection">
+      <created>1415372108101</created>
+      <updated>1415372108101</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -405,7 +403,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.670922" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32907802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -422,7 +420,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="First push" />
-    <option name="LAST_COMMIT_MESSAGE" value="First push" />
+    <MESSAGE value="Add dga_detection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add dga_detection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -431,20 +430,6 @@
     <entry file="file://$PROJECT_DIR$/opendns-random-domains.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810220">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameoverZeus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="18" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cryptolocker.pl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="21" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="680">
           <folding />
         </state>
       </provider>
@@ -469,6 +454,34 @@
     <entry file="file://$PROJECT_DIR$/alexa.csv">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cryptolocker.pl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/encodings/hex_codec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="35" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="672" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zeus.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="32" selection-start="439" selection-end="439" vertical-scroll-proportion="0.61904764" vertical-offset="0" max-vertical-offset="2000120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameoverZeus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="19" selection-start="2765" selection-end="2765" vertical-scroll-proportion="0.7268519" vertical-offset="1986" max-vertical-offset="3200">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
