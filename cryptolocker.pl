@@ -7,7 +7,7 @@ if(scalar @ARGV !=3){
 print "usage: perl dga-cryptolocker.pl $ARGV[0] d m y\n";
 exit 0;
 }
-for($z=0; $z<1000; $z++){
+for($z=0; $z<100000; $z++){
 $d = $ARGV[0];
 $m = $ARGV[1];
 $y = $ARGV[2] + $z;
