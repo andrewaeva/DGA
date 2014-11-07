@@ -19,3 +19,8 @@ zeus.txt
 cryptolocker.txt
 ===
 Домены (100 000) , сгенерированные из Сryptolocker.pl
+
+pushdo.txt
+====
+Домены (100 000) , сгенерированные из PushDo.py
+http://www.garage4hackers.com/entry.php?b=3080
