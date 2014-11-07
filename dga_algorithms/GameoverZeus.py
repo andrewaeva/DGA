@@ -146,7 +146,7 @@ def engine(salt=0x35190501, maxiter=100000):
 index = 0
 dt = str(datetime.datetime.now()).split(' ')[0]
 domains = engine()
-fp = open("zeus.txt", "w")
+fp = open("../zeus.txt", "w")
 for domain in domains:
     a = "%s\n" % (domain)
     fp.write(a)

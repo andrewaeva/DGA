@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a187123e-154f-4530-825f-2351f2411a94" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cryptolocker.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cryptolocker.pl" afterPath="$PROJECT_DIR$/cryptolocker.pl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/GameoverZeus.py" afterPath="$PROJECT_DIR$/dga_algorithms/GameoverZeus.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cryptolocker.pl" afterPath="$PROJECT_DIR$/dga_algorithms/cryptolocker.pl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DGA.iws" />
@@ -31,7 +31,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="GameoverZeus.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameoverZeus.py">
+        <entry file="file://$PROJECT_DIR$/dga_algorithms/GameoverZeus.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="115" column="19" selection-start="2765" selection-end="2765" vertical-scroll-proportion="0.0" vertical-offset="1986" max-vertical-offset="3200">
               <folding />
@@ -49,7 +49,7 @@
         </entry>
       </file>
       <file leaf-file-name="cryptolocker.pl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cryptolocker.pl">
+        <entry file="file://$PROJECT_DIR$/dga_algorithms/cryptolocker.pl">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="19" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="680">
               <folding />
@@ -151,6 +151,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DGA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DGA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dga_algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -172,6 +186,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dga_algorithms" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -189,7 +204,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DGA" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GameoverZeus.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dga_algorithms/GameoverZeus.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -402,7 +417,11 @@
       <created>1415373077890</created>
       <updated>1415373077890</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add dga from cryptolocker.pl">
+      <created>1415373641134</created>
+      <updated>1415373641134</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -440,7 +459,8 @@
     <MESSAGE value="First push" />
     <MESSAGE value="Add dga_detection" />
     <MESSAGE value="Add dga from GameoverZeus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add dga from GameoverZeus" />
+    <MESSAGE value="Add dga from cryptolocker.pl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add dga from cryptolocker.pl" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -482,7 +502,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameoverZeus.py">
+    <entry file="file://$PROJECT_DIR$/dga_algorithms/GameoverZeus.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="115" column="19" selection-start="2765" selection-end="2765" vertical-scroll-proportion="0.0" vertical-offset="1986" max-vertical-offset="3200">
           <folding />
@@ -496,7 +516,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cryptolocker.pl">
+    <entry file="file://$PROJECT_DIR$/dga_algorithms/cryptolocker.pl">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="19" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="680">
           <folding />
