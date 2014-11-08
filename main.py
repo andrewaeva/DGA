@@ -12,7 +12,14 @@ import numpy as np
 #C.close()
 
 ######################################################
-
+##########  0 - legit
+##########  1 - cryptolocker
+##########  2 - zeus
+##########  3 - pushdo
+##########  4 - goz
+##########  5 - newgoz
+##########  6 - others
+######################################################
 #alexa = open('alexa.csv', 'r').read().split('\n')
 #alexa_domain = []
 #for i in alexa:
@@ -31,3 +38,33 @@ import numpy as np
 #    C.write(i+' 0\n')
 
 ######################################################
+cryptolocker = open('cryptolocker.txt', 'r').read().split('\n')
+zeus = open('zeus.txt', 'r').read().split('\n')
+pushdo = open('pushdo.txt').read().split('\n')
+others_dga = open('dga_detection/dga_domains.txt', 'r').read().split('\n')
+dds = open('dds-malicious-domains.csv', 'r').read().split('\n')
+goz = []
+new_goz = []
+for i in dds:
+    i = i.split(',')
+    if i[1] == '"cryptolocker"':
+        cryptolocker.append(i[0].replace('"', ''))
+    if i[1] == '"goz"':
+        goz.append(i[0].replace('"', ''))
+    if i[1] == '"newgoz"':
+        new_goz.append(i[0].replace('"', ''))
+C = open('all_dga.txt', 'w')
+C.seek(0)
+for i in cryptolocker:
+    C.write(i+' 1\n')
+for i in zeus:
+    C.write(i+' 2\n')
+for i in pushdo:
+    C.write(i+' 3\n')
+for i in goz:
+    C.write(i+' 4\n')
+for i in new_goz:
+    C.write(i+' 5\n')
+for i in others_dga:
+    C.write(i+' 6\n')
+C.close()
