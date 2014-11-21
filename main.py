@@ -43,6 +43,7 @@ zeus = open('zeus.txt', 'r').read().split('\n')
 pushdo = open('pushdo.txt').read().split('\n')
 others_dga = open('dga_detection/dga_domains.txt', 'r').read().split('\n')
 dds = open('dds-malicious-domains.csv', 'r').read().split('\n')
+rovnix = open('rovnix.txt', 'r').read().split('\n')
 goz = []
 new_goz = []
 for i in dds:
@@ -67,4 +68,6 @@ for i in new_goz:
     C.write(i+' 5\n')
 for i in others_dga:
     C.write(i+' 6\n')
+for i in rovnix:
+    C.write(i+' 7\n')
 C.close()
