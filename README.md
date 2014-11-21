@@ -24,3 +24,19 @@ pushdo.txt
 ====
 Домены (100 000) , сгенерированные из PushDo.py
 http://www.garage4hackers.com/entry.php?b=3080
+
+Классы
+===
+0 - legit
+
+1 - cryptolocker
+
+2 - zeus
+
+3 - pushdo
+
+4 - goz
+
+5 - newgoz
+
+6 - others
