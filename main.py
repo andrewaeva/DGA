@@ -45,6 +45,7 @@ others_dga = open('dga_detection/dga_domains.txt', 'r').read().split('\n')
 dds = open('dds-malicious-domains.csv', 'r').read().split('\n')
 rovnix = open('rovnix.txt', 'r').read().split('\n')
 tinba = open('tinba.txt', 'r').read().split('\n')
+conficker = open('conficker.txt', 'r').read().split('\n')
 goz = []
 new_goz = []
 for i in dds:
@@ -73,4 +74,6 @@ for i in rovnix:
     C.write(i+' 7\n')
 for i in tinba:
     C.write(i+' 8\n')
+for i in conficker:
+    C.write(i.strip()+' 9\n')
 C.close()
