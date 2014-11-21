@@ -25,6 +25,12 @@ pushdo.txt
 Домены (100 000) , сгенерированные из PushDo.py
 http://www.garage4hackers.com/entry.php?b=3080
 
+rovnix.txt
+====
+https://www.csis.dk/en/csis/news/4472/
+Домены из Конституции
+http://www.constitution.org/usdeclar.txt
+
 Классы
 ===
 0 - legit
@@ -40,3 +46,5 @@ http://www.garage4hackers.com/entry.php?b=3080
 5 - newgoz
 
 6 - others
+
+7 - rovnix
