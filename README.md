@@ -46,6 +46,7 @@ Matsnu.txt
 Домены (100 000), сгенерированные из matsnu.py http://www.seculert.com/blog/2014/11/dgas-a-domain-generation-evolution.html
 
 
+===
 0 - legit
 
 1 - cryptolocker
