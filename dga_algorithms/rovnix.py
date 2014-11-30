@@ -1,6 +1,6 @@
 __author__ = 'andrewa'
 import datetime
-
+import random
 usdeclar = open("../usdeclar.txt", 'r').read().strip().split()
 for i in xrange(0, len(usdeclar)):
     usdeclar[i] = ''.join(e for e in usdeclar[i] if e.isalnum())
@@ -57,17 +57,18 @@ const2 = 0xBEEF
 def generate_domain():
     domain = ''
     while len(domain) < 20:
-        domain += choose_word(usdeclar)
+        domain += choose_word()
     domain += '.com'
-    return domain
+    return domain.lower()
 
 
-def choose_word(word_list):
+def choose_word():
     global seed
     global next_domain
     global const1
     global const2
-    seed = (((((((((((seed & 0xFFFF) * const1) & 0xFFFF) * getDate()[0]) & 0xFFFF) * const2) & 0xFFFF) * next_domain) &
+    time = random.randint(1, 10000)
+    seed = (((((((((((seed & 0xFFFF) * const1) & 0xFFFF) * time) & 0xFFFF) * const2) & 0xFFFF) * next_domain) &
               0xFFFF) ^ const1) & 0xFFFF)
     rem = seed % len(usdeclar)
     return usdeclar[rem]

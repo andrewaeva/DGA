@@ -46,6 +46,7 @@ dds = open('dds-malicious-domains.csv', 'r').read().split('\n')
 rovnix = open('rovnix.txt', 'r').read().split('\n')
 tinba = open('tinba.txt', 'r').read().split('\n')
 conficker = open('conficker.txt', 'r').read().split('\n')
+matsnu = open('matsnu.txt', 'r').read().split('\n')
 goz = []
 new_goz = []
 for i in dds:
@@ -76,4 +77,6 @@ for i in tinba:
     C.write(i+' 8\n')
 for i in conficker:
     C.write(i.strip()+' 9\n')
+for i in matsnu:
+    C.write(i+' 10\n')
 C.close()
