@@ -31,6 +31,14 @@ https://www.csis.dk/en/csis/news/4472/
 Домены из Конституции
 http://www.constitution.org/usdeclar.txt
 
+conficker.txt
+====
+Домены (100 000) ,сгенерированы из conficker.c
+
+Tinba.txt
+===
+Домены (100 000) , сгенерированные из tinba.py
+Разреверсен http://garage4hackers.com/entry.php?b=3086
 Классы
 ===
 0 - legit
@@ -48,3 +56,7 @@ http://www.constitution.org/usdeclar.txt
 6 - others
 
 7 - rovnix
+
+8 - tinba
+
+9 - conficker
