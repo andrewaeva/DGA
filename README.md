@@ -40,6 +40,11 @@ Tinba.txt
 Домены (100 000) , сгенерированные из tinba.py
 Разреверсен http://garage4hackers.com/entry.php?b=3086
 Классы
+
+Matsnu.txt
+===
+Домены (100 000), сгенерированные из matsnu.py 
+http://www.seculert.com/blog/2014/11/dgas-a-domain-generation-evolution.html
 ===
 0 - legit
 
@@ -60,3 +65,5 @@ Tinba.txt
 8 - tinba
 
 9 - conficker
+
+10 - matsnu
