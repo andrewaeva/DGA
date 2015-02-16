@@ -32,7 +32,7 @@ import numpy as np
 cryptolocker = open('cryptolocker.txt', 'r').read().split('\n')
 zeus = open('zeus.txt', 'r').read().split('\n')
 pushdo = open('pushdo.txt').read().split('\n')
-others_dga = open('dga_detection/dga_domains.txt', 'r').read().split('\n')
+others_dga = open('../dga_detection/dga_domains.txt', 'r').read().split('\n')
 dds = open('dds-malicious-domains.csv', 'r').read().split('\n')
 rovnix = open('rovnix.txt', 'r').read().split('\n')
 tinba = open('tinba.txt', 'r').read().split('\n')
@@ -41,14 +41,18 @@ matsnu = open('matsnu.txt', 'r').read().split('\n')
 ramdo = open('ramdo.txt', 'r').read().split('\n')
 goz = []
 new_goz = []
+goz_txt = open('goz.txt', 'w')
+new_goz_txt = open('new_goz.txt', 'w')
 for i in dds:
     i = i.split(',')
     if i[1] == '"cryptolocker"':
         cryptolocker.append(i[0].replace('"', ''))
     if i[1] == '"goz"':
         goz.append(i[0].replace('"', ''))
+        goz_txt.write(i[0].replace('"', '')+'\n')
     if i[1] == '"newgoz"':
         new_goz.append(i[0].replace('"', ''))
+        new_goz_txt.write(i[0].replace('"', '')+'\n')
 C = open('../all_dga.txt', 'w')
 C.seek(0)
 for i in cryptolocker:
