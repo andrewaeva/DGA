@@ -46,6 +46,10 @@ Matsnu.txt
 Домены (100 000), сгенерированные из matsnu.py http://www.seculert.com/blog/2014/11/dgas-a-domain-generation-evolution.html
 
 
+ramdo.txt
+===
+Домены (100 000), сгенерированные из ramdo.cpp
+
 ===
 0 - legit
 
@@ -68,3 +72,5 @@ Matsnu.txt
 9 - conficker
 
 10 - matsnu
+
+11 - ramdo
