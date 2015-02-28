@@ -1,16 +1,5 @@
 __author__ = 'andrewa'
 #-*- coding: utf-8 -*-
-import numpy as np
-#A = open('russian_words.txt', 'r').read().split('\n')
-#B = []
-#for i in A:
-#    i = i.split("|")
-#    B.append(i[3].strip())
-#C = open('russian_words_final.txt', 'w')
-#for i in B:
-#    C.write(i+'\n')
-#C.close()
-
 #alexa = open('../alexa.csv', 'r').read().split('\n')
 #alexa_domain = []
 #for i in alexa:
@@ -32,7 +21,7 @@ import numpy as np
 cryptolocker = open('cryptolocker.txt', 'r').read().split('\n')
 zeus = open('zeus.txt', 'r').read().split('\n')
 pushdo = open('pushdo.txt').read().split('\n')
-others_dga = open('../dga_detection/dga_domains.txt', 'r').read().split('\n')
+others_dga = open('others_dga.txt', 'r').read().split('\n')
 dds = open('dds-malicious-domains.csv', 'r').read().split('\n')
 rovnix = open('rovnix.txt', 'r').read().split('\n')
 tinba = open('tinba.txt', 'r').read().split('\n')
