@@ -2,8 +2,8 @@ __author__ = 'andrewa'
 import pandas as pd
 import numpy as np
 
-dataframe_dict = {'alexa': [], 'conficker': [], 'cryptolocker': [], 'zeus': [], 'pushdo': [], \
-                  'goz': [], 'new_goz': [], 'others_dga': [], 'rovnix': [], 'tinba': [], \
+dataframe_dict = {'alexa': [], 'conficker': [], 'cryptolocker': [], 'zeus': [], 'pushdo': [],
+                  'goz': [], 'new_goz': [], 'others_dga': [], 'rovnix': [], 'tinba': [],
                   'matsnu': [], 'ramdo': []}
 for i, v in dataframe_dict.iteritems():
     if i == 'alexa':

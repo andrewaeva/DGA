@@ -1,4 +1,7 @@
-import os, time, datetime, hashlib
+import os
+import datetime
+import time
+import hashlib
 
 
 def rc4crypt(data, key):

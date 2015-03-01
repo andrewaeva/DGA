@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a187123e-154f-4530-825f-2351f2411a94" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/russian_words.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/russian_words_final.txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/alexa.csv" afterPath="$PROJECT_DIR$/help/alexa.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dga_detection/dga_domains.txt" afterPath="$PROJECT_DIR$/dga_wordlists/others_dga.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/random_forest.py" afterPath="$PROJECT_DIR$/RandomForest.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/russian_words_translit.txt" afterPath="$PROJECT_DIR$/help/russian_words_translit.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/usdeclar.txt" afterPath="$PROJECT_DIR$/help/usdeclar.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/words.txt" afterPath="$PROJECT_DIR$/help/words.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dga_wordlists/main.py" afterPath="$PROJECT_DIR$/dga_wordlists/main.py" />
+    <list default="true" id="a187123e-154f-4530-825f-2351f2411a94" name="Default" comment="Refactor">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dga_algorithms/GameoverZeus.py" afterPath="$PROJECT_DIR$/dga_algorithms/GameoverZeus.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dga_algorithms/PushDO.py" afterPath="$PROJECT_DIR$/dga_algorithms/PushDO.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RandomForest.py" afterPath="$PROJECT_DIR$/RandomForest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DGA.iws" />
@@ -44,40 +37,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dga_wordlists/main.py">
+      <file leaf-file-name="GameoverZeus.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dga_algorithms/GameoverZeus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="13" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.8192771" vertical-offset="0" max-vertical-offset="1480">
+            <state line="0" column="0" selection-start="0" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3280">
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ramdo.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dga_algorithms/Ramdo.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="21" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="980">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="words.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/help/words.txt">
+      <file leaf-file-name="PushDO.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dga_algorithms/PushDO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="461" column="5" selection-start="3689" selection-end="3689" vertical-scroll-proportion="-4.0" vertical-offset="9120" max-vertical-offset="9592580">
+            <state line="7" column="9" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3100">
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tinba.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dga_algorithms/Tinba.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Conficker.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dga_algorithms/Conficker.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="259" column="9" selection-start="5127" selection-end="5127" vertical-scroll-proportion="0.0" vertical-offset="4919" max-vertical-offset="5600">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="Cryptolocker.pl" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dga_algorithms/Cryptolocker.pl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1640">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="russian_words_translit.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/help/russian_words_translit.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="631620">
+            <state line="3" column="31" selection-start="73" selection-end="73" vertical-scroll-proportion="0.14492753" vertical-offset="0" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
@@ -86,7 +100,7 @@
       <file leaf-file-name="RandomForest.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RandomForest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="29" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+            <state line="7" column="28" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
               <folding>
                 <element signature="e#23#42#0" expanded="true" />
               </folding>
@@ -94,19 +108,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cryptolocker.pl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dga_algorithms/Cryptolocker.pl">
+      <file leaf-file-name="Matsnu.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dga_algorithms/Matsnu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-              <folding />
+            <state line="3" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4520">
+              <folding>
+                <element signature="e#23#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="others_dga.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dga_wordlists/others_dga.txt">
+      <file leaf-file-name="opendns-top-domains.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dga_wordlists/opendns-top-domains.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="15" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="28140" max-vertical-offset="53480">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200100">
               <folding />
             </state>
           </provider>
@@ -116,24 +132,6 @@
         <entry file="file://$PROJECT_DIR$/dga_algorithms/Rovnix.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="21" column="10" selection-start="496" selection-end="496" vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="1640">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Matsnu.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dga_algorithms/Matsnu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="205" column="16" selection-start="20546" selection-end="20546" vertical-scroll-proportion="0.0" vertical-offset="3602" max-vertical-offset="4480">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tinba.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dga_algorithms/Tinba.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="14" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1320">
               <folding />
             </state>
           </provider>
@@ -158,12 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/zeus.txt" />
-        <option value="$PROJECT_DIR$/cryptolocker.txt" />
-        <option value="$PROJECT_DIR$/dga_detection/dga_domains.txt" />
-        <option value="$PROJECT_DIR$/dds-malicious-domains.csv" />
-        <option value="$PROJECT_DIR$/dga_algorithms/tinba.py" />
-        <option value="$PROJECT_DIR$/tinba.txt" />
         <option value="$PROJECT_DIR$/dga_algorithms/conficker.cpp" />
         <option value="$PROJECT_DIR$/conficker.txt" />
         <option value="$PROJECT_DIR$/dga_algorithms/matsnu.py" />
@@ -174,14 +166,20 @@
         <option value="$PROJECT_DIR$/random_forest.py" />
         <option value="$PROJECT_DIR$/dga_wordlists/main.py" />
         <option value="$PROJECT_DIR$/RandomForest.py" />
+        <option value="$PROJECT_DIR$/dga_algorithms/GameoverZeus.py" />
+        <option value="$PROJECT_DIR$/dga_algorithms/PushDO.py" />
+        <option value="$PROJECT_DIR$/dga_algorithms/Tinba.py" />
+        <option value="$PROJECT_DIR$/dga_algorithms/Ramdo.cpp" />
+        <option value="$PROJECT_DIR$/dga_algorithms/Matsnu.py" />
+        <option value="$PROJECT_DIR$/dga_algorithms/Conficker.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1440" />
-    <option name="y" value="23" />
+    <option name="y" value="147" />
     <option name="width" value="1280" />
-    <option name="height" value="1001" />
+    <option name="height" value="807" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -694,11 +692,15 @@
       <created>1424107921852</created>
       <updated>1424107921852</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Refactor">
+      <created>1425142280821</created>
+      <updated>1425142280821</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1280" height="1001" extended-state="0" />
+    <frame x="1440" y="147" width="1280" height="807" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -709,10 +711,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3286517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21953125" sideWeight="0.67108166" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21953125" sideWeight="0.67134833" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27593818" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -726,6 +728,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
@@ -752,76 +755,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dga_wordlists/new_goz.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dga_wordlists/goz.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="33460">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dga_algorithms/Conficker.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="16" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="5580">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dga_algorithms/GameoverZeus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="18" selection-start="3853" selection-end="3853" vertical-scroll-proportion="0.0" vertical-offset="1917" max-vertical-offset="3200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dga_algorithms/PushDO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="0" selection-start="3268" selection-end="3365" vertical-scroll-proportion="0.0" vertical-offset="2185" max-vertical-offset="3040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dga_algorithms/Ramdo.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dga_algorithms/Tinba.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="14" selection-start="1393" selection-end="1393" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help/russian_words_translit.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="631620">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dga_wordlists/others_dga.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="15" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="28140" max-vertical-offset="53480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dga_algorithms/Cryptolocker.pl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="842">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/help/words.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="461" column="5" selection-start="3689" selection-end="3689" vertical-scroll-proportion="-4.0" vertical-offset="9120" max-vertical-offset="9592580">
@@ -839,11 +772,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dga_wordlists/pushdo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dga_wordlists/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="510" selection-end="510" vertical-scroll-proportion="-12.8" vertical-offset="0" max-vertical-offset="1480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all_legit.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20400120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all_dga.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="16153500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dga_wordlists/opendns-top-domains.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RandomForest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="29" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+        <state line="7" column="28" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
           <folding>
             <element signature="e#23#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dga_algorithms/GameoverZeus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3280">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dga_algorithms/PushDO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="9" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3100">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -855,16 +841,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dga_algorithms/Matsnu.py">
+    <entry file="file://$PROJECT_DIR$/dga_algorithms/Tinba.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="16" selection-start="20546" selection-end="20546" vertical-scroll-proportion="0.0" vertical-offset="3602" max-vertical-offset="4480">
+        <state line="3" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dga_algorithms/Ramdo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="21" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="980">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dga_wordlists/main.py">
+    <entry file="file://$PROJECT_DIR$/dga_algorithms/Matsnu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="13" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.8192771" vertical-offset="0" max-vertical-offset="1480">
+        <state line="3" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4520">
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dga_algorithms/Conficker.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="259" column="9" selection-start="5127" selection-end="5127" vertical-scroll-proportion="0.0" vertical-offset="4919" max-vertical-offset="5600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dga_algorithms/Cryptolocker.pl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="31" selection-start="73" selection-end="73" vertical-scroll-proportion="0.14492753" vertical-offset="0" max-vertical-offset="680">
           <folding />
         </state>
       </provider>

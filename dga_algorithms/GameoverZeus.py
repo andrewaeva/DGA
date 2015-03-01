@@ -1,4 +1,8 @@
-import os, datetime, time, hashlib, socket
+import os
+import datetime
+import time
+import hashlib
+import socket
 
 family = "GameoverZeus"
 utility = family + "-DGA"
