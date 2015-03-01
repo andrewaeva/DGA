@@ -39,12 +39,12 @@ http://www.constitution.org/usdeclar.txt
 ```
 Домены (100 000) ,сгенерированы из Conficker.c
 ```
-#####Tinba.txt
+#####tinba.txt
 ```
 Домены (100 000) , сгенерированные из Tinba.py
 Разреверсен http://garage4hackers.com/entry.php?b=3086
 ```
-#####Matsnu.txt
+#####matsnu.txt
 ```
 Домены (100 000), сгенерированные из Matsnu.py http://www.seculert.com/blog/2014/11/dgas-a-domain-generation-evolution.html
 ```
