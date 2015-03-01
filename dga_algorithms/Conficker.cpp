@@ -268,6 +268,7 @@ void print_domains(char * datestr)
 	ExitProcess(0);
 }
 
+
 int main() {
 	print_domains(NULL);
 	return 0;

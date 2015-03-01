@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a187123e-154f-4530-825f-2351f2411a94" name="Default" comment="Refactor">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dga_algorithms/GameoverZeus.py" afterPath="$PROJECT_DIR$/dga_algorithms/GameoverZeus.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dga_algorithms/PushDO.py" afterPath="$PROJECT_DIR$/dga_algorithms/PushDO.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RandomForest.py" afterPath="$PROJECT_DIR$/RandomForest.py" />
+    <list default="true" id="a187123e-154f-4530-825f-2351f2411a94" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dga_algorithms/Conficker.cpp" afterPath="$PROJECT_DIR$/dga_algorithms/Conficker.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dga_algorithms/Matsnu.py" afterPath="$PROJECT_DIR$/dga_algorithms/Matsnu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dga_algorithms/Ramdo.cpp" afterPath="$PROJECT_DIR$/dga_algorithms/Ramdo.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dga_algorithms/Rovnix.py" afterPath="$PROJECT_DIR$/dga_algorithms/Rovnix.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dga_algorithms/Tinba.py" afterPath="$PROJECT_DIR$/dga_algorithms/Tinba.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DGA.iws" />
@@ -41,9 +43,7 @@
         <entry file="file://$PROJECT_DIR$/dga_algorithms/GameoverZeus.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3280">
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,7 +51,7 @@
       <file leaf-file-name="Ramdo.cpp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dga_algorithms/Ramdo.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="21" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="980">
+            <state line="10" column="21" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="980">
               <folding />
             </state>
           </provider>
@@ -60,10 +60,8 @@
       <file leaf-file-name="PushDO.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dga_algorithms/PushDO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="9" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3100">
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state line="7" column="9" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="3100">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,10 +69,8 @@
       <file leaf-file-name="Tinba.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dga_algorithms/Tinba.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state line="3" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1320">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,7 +78,7 @@
       <file leaf-file-name="Conficker.cpp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dga_algorithms/Conficker.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="259" column="9" selection-start="5127" selection-end="5127" vertical-scroll-proportion="0.0" vertical-offset="4919" max-vertical-offset="5600">
+            <state line="259" column="9" selection-start="5127" selection-end="5127" vertical-scroll-proportion="0.0" vertical-offset="5180" max-vertical-offset="5620">
               <folding />
             </state>
           </provider>
@@ -91,7 +87,7 @@
       <file leaf-file-name="Cryptolocker.pl" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dga_algorithms/Cryptolocker.pl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="31" selection-start="73" selection-end="73" vertical-scroll-proportion="0.14492753" vertical-offset="0" max-vertical-offset="680">
+            <state line="3" column="31" selection-start="73" selection-end="73" vertical-scroll-proportion="0.032407407" vertical-offset="39" max-vertical-offset="700">
               <folding />
             </state>
           </provider>
@@ -100,10 +96,8 @@
       <file leaf-file-name="RandomForest.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RandomForest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="28" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
-              <folding>
-                <element signature="e#23#42#0" expanded="true" />
-              </folding>
+            <state line="7" column="28" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="1140">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,10 +105,8 @@
       <file leaf-file-name="Matsnu.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dga_algorithms/Matsnu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4520">
-              <folding>
-                <element signature="e#23#38#0" expanded="true" />
-              </folding>
+            <state line="3" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="4520">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,7 +123,7 @@
       <file leaf-file-name="Rovnix.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dga_algorithms/Rovnix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="10" selection-start="496" selection-end="496" vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="1640">
+            <state line="21" column="10" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1660">
               <folding />
             </state>
           </provider>
@@ -229,7 +221,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -292,18 +283,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
-    <property name="options.lastSelected" value="Errors" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="Errors" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -501,9 +493,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -525,6 +514,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -696,29 +688,33 @@
       <created>1425142280821</created>
       <updated>1425142280821</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Refactor">
+      <created>1425213786384</created>
+      <updated>1425213786384</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="147" width="1280" height="807" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3286517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21953125" sideWeight="0.67134833" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27593818" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -810,33 +806,27 @@
     <entry file="file://$PROJECT_DIR$/RandomForest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="28" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
-          <folding>
-            <element signature="e#23#42#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dga_algorithms/GameoverZeus.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3280">
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dga_algorithms/PushDO.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="9" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3100">
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dga_algorithms/Rovnix.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="10" selection-start="496" selection-end="496" vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="1640">
+        <state line="21" column="10" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1660">
           <folding />
         </state>
       </provider>
@@ -844,9 +834,7 @@
     <entry file="file://$PROJECT_DIR$/dga_algorithms/Tinba.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -860,9 +848,7 @@
     <entry file="file://$PROJECT_DIR$/dga_algorithms/Matsnu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4520">
-          <folding>
-            <element signature="e#23#38#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -875,7 +861,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dga_algorithms/Cryptolocker.pl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="73" selection-end="73" vertical-scroll-proportion="0.14492753" vertical-offset="0" max-vertical-offset="680">
+        <state line="3" column="31" selection-start="73" selection-end="73" vertical-scroll-proportion="0.032407407" vertical-offset="39" max-vertical-offset="700">
           <folding />
         </state>
       </provider>

@@ -1,5 +1,5 @@
-import os, time
-
+import os
+import time
 
 
 def tinbaDGA(idomain, seed):

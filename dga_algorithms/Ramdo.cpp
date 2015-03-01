@@ -1,6 +1,7 @@
-
 #include <iostream>
 #include <string>
+
+
 int main(int argc, const char * argv[]) {
     int numdoms;
     unsigned int initial_seed = 0xDEADBEEF;

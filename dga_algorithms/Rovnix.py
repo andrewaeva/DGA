@@ -1,7 +1,7 @@
 __author__ = 'andrewa'
 import datetime
 import random
-usdeclar = open("../usdeclar.txt", 'r').read().strip().split()
+usdeclar = open("../help/usdeclar.txt", 'r').read().strip().split()
 for i in xrange(0, len(usdeclar)):
     usdeclar[i] = ''.join(e for e in usdeclar[i] if e.isalnum())
 

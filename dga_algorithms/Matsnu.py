@@ -1,6 +1,7 @@
 __author__ = 'andrewa'
 import datetime
 import random
+
 verbs = ['people', 'history', 'way', 'art', 'money', 'world', 'information', 'map', 'two', 'family', 'government',
          'health', 'system', 'computer', 'meat', 'year', 'thanks', 'music', 'person', 'reading', 'method', 'data',
          'food', 'understanding', 'theory', 'law', 'bird', 'literature', 'problem', 'software', 'control', 'knowledge',
