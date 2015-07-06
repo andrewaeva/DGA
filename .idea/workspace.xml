@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a187123e-154f-4530-825f-2351f2411a94" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dga_algorithms/Conficker.cpp" afterPath="$PROJECT_DIR$/dga_algorithms/Conficker.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dga_algorithms/Matsnu.py" afterPath="$PROJECT_DIR$/dga_algorithms/Matsnu.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dga_algorithms/Ramdo.cpp" afterPath="$PROJECT_DIR$/dga_algorithms/Ramdo.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dga_algorithms/Rovnix.py" afterPath="$PROJECT_DIR$/dga_algorithms/Rovnix.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dga_algorithms/Tinba.py" afterPath="$PROJECT_DIR$/dga_algorithms/Tinba.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RandomForest.py" afterPath="$PROJECT_DIR$/RandomForest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all_dga.txt" afterPath="$PROJECT_DIR$/all_dga.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dga_wordlists/main.py" afterPath="$PROJECT_DIR$/dga_wordlists/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DGA.iws" />
@@ -19,12 +18,12 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/DGA$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1424104477563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dga_wordlists" />
+    <SUITE FILE_PATH="coverage/DGA$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1436211085201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dga_wordlists" />
     <SUITE FILE_PATH="coverage/DGA$tinba.coverage" NAME="tinba Coverage Results" MODIFIED="1416595507642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dga_algorithms" />
     <SUITE FILE_PATH="coverage/DGA$PushDO.coverage" NAME="PushDO Coverage Results" MODIFIED="1415382755196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dga_algorithms" />
     <SUITE FILE_PATH="coverage/DGA$GameoverZeus.coverage" NAME="GameoverZeus Coverage Results" MODIFIED="1415381734161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DGA$rovnix.coverage" NAME="rovnix Coverage Results" MODIFIED="1416574172451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dga_algorithms" />
-    <SUITE FILE_PATH="coverage/DGA$main.coverage" NAME="main Coverage Results" MODIFIED="1425141984595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGA$main.coverage" NAME="main Coverage Results" MODIFIED="1436211602609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DGA$matsnu.coverage" NAME="matsnu Coverage Results" MODIFIED="1417353410388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dga_algorithms" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -39,37 +38,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GameoverZeus.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dga_algorithms/GameoverZeus.py">
+      <file leaf-file-name="others_dga.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dga_wordlists/others_dga.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3280">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="52602" max-vertical-offset="53480">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ramdo.cpp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dga_algorithms/Ramdo.cpp">
+      <file leaf-file-name="ramdo.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dga_wordlists/ramdo.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="21" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="980">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PushDO.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dga_algorithms/PushDO.py">
+      <file leaf-file-name="rovnix.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dga_wordlists/rovnix.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="9" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="3100">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2000100">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tinba.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dga_algorithms/Tinba.py">
+      <file leaf-file-name="zeus.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dga_wordlists/zeus.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1320">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dga_wordlists/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="22" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.0" vertical-offset="692" max-vertical-offset="1360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="0" selection-start="861" selection-end="861" vertical-scroll-proportion="-29.62963" vertical-offset="0" max-vertical-offset="1400">
               <folding />
             </state>
           </provider>
@@ -78,16 +98,7 @@
       <file leaf-file-name="Conficker.cpp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dga_algorithms/Conficker.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="259" column="9" selection-start="5127" selection-end="5127" vertical-scroll-proportion="0.0" vertical-offset="5180" max-vertical-offset="5620">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cryptolocker.pl" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dga_algorithms/Cryptolocker.pl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="31" selection-start="73" selection-end="73" vertical-scroll-proportion="0.032407407" vertical-offset="39" max-vertical-offset="700">
+            <state line="259" column="9" selection-start="5127" selection-end="5127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5620">
               <folding />
             </state>
           </provider>
@@ -96,34 +107,27 @@
       <file leaf-file-name="RandomForest.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RandomForest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="28" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="1140">
+            <state line="27" column="17" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1100">
+              <folding>
+                <element signature="e#23#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conficker.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dga_wordlists/conficker.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Matsnu.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dga_algorithms/Matsnu.py">
+      <file leaf-file-name="pushdo.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dga_wordlists/pushdo.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="4520">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="opendns-top-domains.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dga_wordlists/opendns-top-domains.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200100">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rovnix.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dga_algorithms/Rovnix.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="10" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1660">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100">
               <folding />
             </state>
           </provider>
@@ -148,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/dga_algorithms/conficker.cpp" />
         <option value="$PROJECT_DIR$/conficker.txt" />
         <option value="$PROJECT_DIR$/dga_algorithms/matsnu.py" />
         <option value="$PROJECT_DIR$/dga_algorithms/rovnix.py" />
@@ -156,22 +159,23 @@
         <option value="$PROJECT_DIR$/rovnix.txt" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/random_forest.py" />
-        <option value="$PROJECT_DIR$/dga_wordlists/main.py" />
-        <option value="$PROJECT_DIR$/RandomForest.py" />
         <option value="$PROJECT_DIR$/dga_algorithms/GameoverZeus.py" />
         <option value="$PROJECT_DIR$/dga_algorithms/PushDO.py" />
         <option value="$PROJECT_DIR$/dga_algorithms/Tinba.py" />
         <option value="$PROJECT_DIR$/dga_algorithms/Ramdo.cpp" />
         <option value="$PROJECT_DIR$/dga_algorithms/Matsnu.py" />
         <option value="$PROJECT_DIR$/dga_algorithms/Conficker.cpp" />
+        <option value="$PROJECT_DIR$/dga_wordlists/main.py" />
+        <option value="$PROJECT_DIR$/RandomForest.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1440" />
-    <option name="y" value="147" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="807" />
+    <option name="height" value="1001" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -249,35 +253,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="help" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DGA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DGA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="dga_wordlists" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DGA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DGA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dga_algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -287,14 +263,30 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="108" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="109" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="108" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="Errors" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="113" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="907" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="907" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="113" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="109" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="Errors" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -493,6 +485,9 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -514,9 +509,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -692,11 +684,15 @@
       <created>1425213786384</created>
       <updated>1425213786384</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Refactor">
+      <created>1425213825943</created>
+      <updated>1425213825943</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="147" width="1280" height="807" extended-state="0" />
+    <frame x="1440" y="23" width="1280" height="1001" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -704,12 +700,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21953125" sideWeight="0.67134833" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21875" sideWeight="0.7240618" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27593818" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27593818" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -728,6 +724,7 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
     <MESSAGE value="First push" />
     <MESSAGE value="Add dga_detection" />
     <MESSAGE value="Add dga from GameoverZeus" />
@@ -751,51 +748,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/help/words.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="461" column="5" selection-start="3689" selection-end="3689" vertical-scroll-proportion="-4.0" vertical-offset="9120" max-vertical-offset="9592580">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1640">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dga_wordlists/pushdo.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dga_wordlists/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="510" selection-end="510" vertical-scroll-proportion="-12.8" vertical-offset="0" max-vertical-offset="1480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/all_legit.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20400120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/all_dga.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="16153500">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dga_wordlists/opendns-top-domains.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200100">
@@ -803,51 +755,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RandomForest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dga_algorithms/GameoverZeus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3280">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dga_algorithms/PushDO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="9" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3100">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dga_algorithms/Rovnix.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="10" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1660">
+        <state line="21" column="10" selection-start="496" selection-end="496" vertical-scroll-proportion="-0.029239766" vertical-offset="420" max-vertical-offset="1640">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dga_algorithms/Tinba.py">
+    <entry file="file://$PROJECT_DIR$/dga_wordlists/new_goz.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
+        <state line="1656" column="30" selection-start="51179" selection-end="51179" vertical-scroll-proportion="0.0" vertical-offset="32756" max-vertical-offset="33440">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dga_algorithms/Ramdo.cpp">
+    <entry file="file://$PROJECT_DIR$/dga_wordlists/goz.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="980">
+        <state line="1660" column="31" selection-start="48560" selection-end="48560" vertical-scroll-proportion="0.0" vertical-offset="32776" max-vertical-offset="33460">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dga_algorithms/Matsnu.py">
+    <entry file="file://$PROJECT_DIR$/dga_wordlists/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4520">
+        <state line="42" column="22" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.0" vertical-offset="692" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all_dga.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="16033460">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/all_legit.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="7" selection-start="266" selection-end="266" vertical-scroll-proportion="0.49751243" vertical-offset="0" max-vertical-offset="20400120">
           <folding />
         </state>
       </provider>
@@ -859,9 +804,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dga_algorithms/Cryptolocker.pl">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="73" selection-end="73" vertical-scroll-proportion="0.032407407" vertical-offset="39" max-vertical-offset="700">
+        <state line="40" column="0" selection-start="861" selection-end="861" vertical-scroll-proportion="-29.62963" vertical-offset="0" max-vertical-offset="1400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RandomForest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="17" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1100">
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dga_wordlists/conficker.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dga_wordlists/pushdo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dga_wordlists/others_dga.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="53480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dga_wordlists/ramdo.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dga_wordlists/rovnix.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dga_wordlists/zeus.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100">
           <folding />
         </state>
       </provider>

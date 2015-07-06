@@ -2,8 +2,7 @@ __author__ = 'andrewa'
 import pandas as pd
 import numpy as np
 
-dataframe_dict = {'alexa': [], 'conficker': [], 'cryptolocker': [], 'zeus': [], 'pushdo': [],
-                  'goz': [], 'new_goz': [], 'others_dga': [], 'rovnix': [], 'tinba': [],
+dataframe_dict = {'alexa': [], 'conficker': [], 'cryptolocker': [], 'zeus': [], 'pushdo': [], 'rovnix': [], 'tinba': [],
                   'matsnu': [], 'ramdo': []}
 for i, v in dataframe_dict.iteritems():
     if i == 'alexa':
@@ -21,10 +20,9 @@ for i, v in dataframe_dict.iteritems():
 
 print '# done parsing'
 
-all_domains = pd.concat([dataframe_dict['alexa'], dataframe_dict['conficker'], dataframe_dict['cryptolocker'], \
-                         dataframe_dict['zeus'], dataframe_dict['pushdo'], dataframe_dict['goz'], \
-                         dataframe_dict['new_goz'], dataframe_dict['others_dga'], dataframe_dict['rovnix'], \
-                         dataframe_dict['tinba'], dataframe_dict['matsnu'], dataframe_dict['ramdo']], \
+all_domains = pd.concat([dataframe_dict['alexa'], dataframe_dict['conficker'], dataframe_dict['cryptolocker'],
+                         dataframe_dict['zeus'], dataframe_dict['pushdo'], dataframe_dict['rovnix'],
+                         dataframe_dict['tinba'], dataframe_dict['matsnu'], dataframe_dict['ramdo']],
                         ignore_index=True)
 
 all_domains['length'] = [len(x) for x in all_domains['domain']]

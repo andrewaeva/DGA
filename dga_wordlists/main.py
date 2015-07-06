@@ -50,20 +50,14 @@ for i in zeus:
     C.write(i+' 2\n')
 for i in pushdo:
     C.write(i+' 3\n')
-for i in goz:
-    C.write(i+' 4\n')
-for i in new_goz:
-    C.write(i+' 5\n')
-for i in others_dga:
-    C.write(i+' 6\n')
 for i in rovnix:
-    C.write(i+' 7\n')
+    C.write(i+' 4\n')
 for i in tinba:
-    C.write(i+' 8\n')
+    C.write(i+' 5\n')
 for i in conficker:
-    C.write(i.strip()+' 9\n')
+    C.write(i.strip()+' 6\n')
 for i in matsnu:
-    C.write(i+' 10\n')
+    C.write(i+' 7\n')
 for i in ramdo:
-    C.write(i+' 11\n')
+    C.write(i+' 8\n')
 C.close()
