@@ -1,3 +1,7 @@
+dds-malicious-domains.csv
+===
+https://github.com/nickwallen/botnet-dga-classifier
+dga домены, классифицированы по 3 (трём) классам cryptoloker, goz, newgoz
 alexa.csv
 ===
 легитимные домены из alexa top
@@ -5,10 +9,13 @@ opendns-top-domains.txt
 ===
 топ легит доменов от opendns
 dga_detection/dga_domains.txt
+===
+абсолютно разные dga домены от ClickSecurity
+
+https://www.clicksecurity.com/blog/author/labs/page/2/ с какой-то конфы видео + статья
 zeus.txt
 ===
-Домены (100 000) , сгенерированные из GameoverZeus.py
-http://garage4hackers.com/entry.php?b=3081
+Домены (100 000) , сгенерированные из GameoverZeus.py, который в свою очередь разреверсен из трояна http://garage4hackers.com/entry.php?b=3081
 cryptolocker.txt
 ===
 Домены (100 000) , сгенерированные из Сryptolocker.pl
@@ -31,13 +38,12 @@ conficker.txt
 Tinba.txt
 ===
 Домены (100 000) , сгенерированные из tinba.py
-http://garage4hackers.com/entry.php?b=3086
-
+Разреверсен http://garage4hackers.com/entry.php?b=3086
+Классы
 
 Matsnu.txt
 ===
-Домены (100 000), сгенерированные из matsnu.py
-http://www.seculert.com/blog/2014/11/dgas-a-domain-generation-evolution.html
+Домены (100 000), сгенерированные из matsnu.py http://www.seculert.com/blog/2014/11/dgas-a-domain-generation-evolution.html
 
 
 ramdo.txt
@@ -53,12 +59,18 @@ ramdo.txt
 
 3 - pushdo
 
-6 - rovnix
+4 - goz
 
-7 - tinba
+5 - newgoz
 
-8 - conficker
+6 - others
 
-9 - matsnu
+7 - rovnix
 
-10 - ramdo
+8 - tinba
+
+9 - conficker
+
+10 - matsnu
+
+11 - ramdo
