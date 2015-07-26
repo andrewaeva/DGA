@@ -70,17 +70,62 @@ all_domains['diff'] = all_domains['alexa_grams'] - all_domains['word_grams']
 #pylab.xlabel('Domain Length')
 #pylab.ylabel('Alexa NGram Matches')
 
-weird_cond = (all_domains['class']=='legit') & (all_domains['word_grams']<3) & (all_domains['alexa_grams']<2)
-weird = all_domains[weird_cond]
-all_domains.loc[weird_cond, 'class'] = 'weird'
-not_weird = all_domains[all_domains['class'] != 'weird']
-X = not_weird.as_matrix(['length', 'entropy', 'alexa_grams', 'word_grams'])
-y = np.array(not_weird['class'].tolist())
+#weird_cond = (all_domains['class']=='legit') & (all_domains['word_grams']<3) & (all_domains['alexa_grams']<2)
+#weird = all_domains[weird_cond]
+#all_domains.loc[weird_cond, 'class'] = 'weird'
+#not_weird = all_domains[all_domains['class'] != 'weird']
+#X = not_weird.as_matrix(['length', 'entropy', 'alexa_grams', 'word_grams'])
+#y = np.array(not_weird['class'].tolist())
 
-#X = all_domains.as_matrix(['length', 'entropy'])
-#y = np.array(all_domains['class'].tolist())
+X = all_domains.as_matrix(['length', 'entropy', 'alexa_grams',  'word_grams', 'diff'])
+y = np.array(all_domains['class'].tolist())
 
-clf = sklearn.ensemble.RandomForestClassifier(n_estimators=20)
+from sklearn import cross_validation
+from sklearn.linear_model import LogisticRegression
+from sklearn.naive_bayes import GaussianNB
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import VotingClassifier
+from sklearn.ensemble import ExtraTreesClassifier
+
+clf1 = LogisticRegression(random_state=1)
+clf2 = RandomForestClassifier(random_state=1)
+clf3 = GaussianNB()
+clf4 = ExtraTreesClassifier()
+
+eclf = VotingClassifier(estimators=[('lr', clf1), ('rf', clf2), ('gnb', clf3), ('etr', clf4)], voting='soft')
+
+clf1.fit(X, y)
+clf2.fit(X, y)
+clf3.fit(X, y)
+clf4.fit(X, y)
+eclf.fit(X, y)
+
+x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
+y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
+xx, yy = np.meshgrid(np.arange(x_min, x_max, 0.1),
+                     np.arange(y_min, y_max, 0.1))
+
+f, axarr = plt.subplots(2, 2, sharex='col', sharey='row', figsize=(10, 8))
+from itertools import product
+for idx, clf, tt in zip(product([0, 1], [0, 1]),
+                        [clf1, clf2, clf3, clf4, eclf],
+                        ['Regr', 'Foresr',
+                         'Bayes', 'Extra' 'Soft Voting']):
+
+    Z = clf.predict(np.c_[xx.ravel(), yy.ravel()])
+    Z = Z.reshape(xx.shape)
+
+    axarr[idx[0], idx[1]].contourf(xx, yy, Z, alpha=0.4)
+    axarr[idx[0], idx[1]].scatter(X[:, 0], X[:, 1], c=y, alpha=0.8)
+    axarr[idx[0], idx[1]].set_title(tt)
+
+plt.show()
+
+for clf, label in zip([clf1, clf2, clf3, clf4, eclf], ['Logistic Regression', 'Random Forest', 'naive Bayes',
+                                                       'Extra Tree', 'Ensemble']):
+    scores = cross_validation.cross_val_score(clf, X, y, cv=5, scoring='accuracy')
+    print("Accuracy: %0.6f (+/- %0.2f) [%s]" % (scores.mean(), scores.std(), label))
+print 'FOREST'
 
 from sklearn.cross_validation import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
@@ -88,6 +133,8 @@ clf.fit(X_train, y_train)
 y_pred = clf.predict(X_test)
 
 clf.fit(X, y)
+
+print 'VALIDATION'
 scores = sklearn.cross_validation.cross_val_score(clf, X, y, cv=5, n_jobs=4)
 print scores.mean()
 #all_domains.boxplot('entropy', 'class')
