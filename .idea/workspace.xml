@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a187123e-154f-4530-825f-2351f2411a94" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RandomForest.py" afterPath="$PROJECT_DIR$/RandomForest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DGAClassificationAll.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/DGAClassification.py" afterPath="$PROJECT_DIR$/DGAClassificationClass.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DGA.iws" />
@@ -16,11 +17,12 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DGA$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1436211085201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dga_wordlists" />
+    <SUITE FILE_PATH="coverage/DGA$DGAClassificationAll.coverage" NAME="DGAClassificationAll Coverage Results" MODIFIED="1439673171404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DGA$tinba.coverage" NAME="tinba Coverage Results" MODIFIED="1416595507642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dga_algorithms" />
     <SUITE FILE_PATH="coverage/DGA$PushDO.coverage" NAME="PushDO Coverage Results" MODIFIED="1415382755196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dga_algorithms" />
     <SUITE FILE_PATH="coverage/DGA$GameoverZeus.coverage" NAME="GameoverZeus Coverage Results" MODIFIED="1415381734161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DGA$rovnix.coverage" NAME="rovnix Coverage Results" MODIFIED="1416574172451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dga_algorithms" />
-    <SUITE FILE_PATH="coverage/DGA$main.coverage" NAME="main Coverage Results" MODIFIED="1437924304891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGA$main.coverage" NAME="main Coverage Results" MODIFIED="1437930194366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DGA$matsnu.coverage" NAME="matsnu Coverage Results" MODIFIED="1417353410388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dga_algorithms" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -35,10 +37,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RandomForest.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RandomForest.py">
+      <file leaf-file-name="DGAClassificationClass.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DGAClassificationClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="20" selection-start="1012" selection-end="1012" vertical-scroll-proportion="-1.4460431" vertical-offset="1244" max-vertical-offset="3000">
+            <state line="13" column="48" selection-start="0" selection-end="5631" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="2900">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DGAClassificationAll.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DGAClassificationAll.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="39" selection-start="4816" selection-end="4816" vertical-scroll-proportion="2.7745664" vertical-offset="0" max-vertical-offset="2900">
               <folding>
                 <element signature="e#23#42#0" expanded="true" />
               </folding>
@@ -54,6 +65,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
@@ -65,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/conficker.txt" />
         <option value="$PROJECT_DIR$/dga_algorithms/matsnu.py" />
         <option value="$PROJECT_DIR$/dga_algorithms/rovnix.py" />
         <option value="$PROJECT_DIR$/matsnu.txt" />
@@ -81,6 +92,7 @@
         <option value="$PROJECT_DIR$/dga_wordlists/main.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/RandomForest.py" />
+        <option value="$PROJECT_DIR$/DGAClassificationAll.py" />
       </list>
     </option>
   </component>
@@ -88,7 +100,7 @@
     <option name="x" value="1440" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="933" />
+    <option name="height" value="1001" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -138,6 +150,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -158,21 +171,20 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="108" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="109" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="108" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="108" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="113" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="907" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="907" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="907" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="113" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="109" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -204,7 +216,7 @@
       <recent name="$PROJECT_DIR$/dga_algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.DGAClassificationAll">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,25 +235,6 @@
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="rovnix" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dga_algorithms" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DGA" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dga_algorithms/Rovnix.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -297,6 +290,25 @@
       <module name="DGA" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dga_wordlists/main.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DGAClassificationAll" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DGA" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DGAClassificationAll.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -386,9 +398,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -410,6 +419,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -454,18 +466,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.rovnix" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tinba" />
-      <item index="3" class="java.lang.String" itemvalue="Python.matsnu" />
-      <item index="4" class="java.lang.String" itemvalue="Python.main (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tinba" />
+      <item index="2" class="java.lang.String" itemvalue="Python.matsnu" />
+      <item index="3" class="java.lang.String" itemvalue="Python.main (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.DGAClassificationAll" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.matsnu" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tinba" />
-        <item index="4" class="java.lang.String" itemvalue="Python.rovnix" />
+        <item index="0" class="java.lang.String" itemvalue="Python.DGAClassificationAll" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.matsnu" />
+        <item index="4" class="java.lang.String" itemvalue="Python.tinba" />
       </list>
     </recent_temporary>
   </component>
@@ -597,29 +609,33 @@
       <created>1437857726458</created>
       <updated>1437857726458</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="update">
+      <created>1437924736452</created>
+      <updated>1437924736452</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1280" height="933" extended-state="6" />
+    <frame x="1440" y="23" width="1280" height="1001" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286517" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12890625" sideWeight="0.7267303" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20546874" sideWeight="0.72737306" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39952153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27326968" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27262694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781458" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286517" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -658,11 +674,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dga_wordlists/new_goz.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1656" column="30" selection-start="51179" selection-end="51179" vertical-scroll-proportion="0.0" vertical-offset="32756" max-vertical-offset="33440" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dga_wordlists/goz.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1660" column="31" selection-start="48560" selection-end="48560" vertical-scroll-proportion="0.0" vertical-offset="32776" max-vertical-offset="33460" />
@@ -670,9 +681,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dga_wordlists/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="22" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.0" vertical-offset="692" max-vertical-offset="1360">
-          <folding />
-        </state>
+        <state line="42" column="22" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.0" vertical-offset="692" max-vertical-offset="1360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/all_dga.txt">
@@ -687,23 +696,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dga_wordlists/conficker.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dga_wordlists/others_dga.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="53480">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="53480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dga_wordlists/zeus.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -716,49 +719,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dga_wordlists/pushdo.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/help/words.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.40678" vertical-offset="2340" max-vertical-offset="9592580">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.40678" vertical-offset="2340" max-vertical-offset="9592580" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dga_algorithms/Conficker.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="259" column="9" selection-start="5127" selection-end="5127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5620">
-          <folding />
-        </state>
+        <state line="259" column="9" selection-start="5127" selection-end="5127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5620" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dga_wordlists/ramdo.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dga_wordlists/tinba.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2000100" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dga_wordlists/rovnix.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="103" selection-end="103" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="2000100">
+        <state line="3" column="25" selection-start="103" selection-end="103" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="2000100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DGAClassificationClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="48" selection-start="0" selection-end="5631" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="2900">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RandomForest.py">
+    <entry file="file://$PROJECT_DIR$/DGAClassificationAll.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="20" selection-start="1012" selection-end="1012" vertical-scroll-proportion="-1.4460431" vertical-offset="1244" max-vertical-offset="3000">
+        <state line="120" column="39" selection-start="4816" selection-end="4816" vertical-scroll-proportion="2.7745664" vertical-offset="0" max-vertical-offset="2900">
           <folding>
             <element signature="e#23#42#0" expanded="true" />
           </folding>
