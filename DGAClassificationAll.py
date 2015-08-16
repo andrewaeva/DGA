@@ -124,7 +124,9 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
 clf1 = LogisticRegression(random_state=1)
 clf1.fit(X_train, y_train)
-clf2 = RandomForestClassifier(random_state=1)
+clf2 = RandomForestClassifier(bootstrap=True, max_depth=None, class_weight="auto", min_samples_leaf=1,
+                              min_samples_split=1, n_estimators=1500, n_jobs=40, oob_score=False,
+                              random_state=1, verbose=1)
 clf2.fit(X_train, y_train)
 clf3 = GaussianNB()
 clf3.fit(X_train, y_train)
@@ -137,3 +139,30 @@ for clf, label in zip([clf1, clf2, clf3, clf4, eclf], ['Logistic Regression', 'R
                                                        'Extra Tree', 'Ensemble']):
     scores = cross_validation.cross_val_score(clf, X_test, y_test, cv=5, scoring='accuracy')
     print("Accuracy: %0.6f (+/- %0.2f) [%s]" % (scores.mean(), scores.std(), label))
+
+from sklearn.metrics import confusion_matrix
+y_pred = clf2.predict(X_test)
+labels = ['legit', 'dga']
+cm = confusion_matrix(y_test, y_pred, labels)
+
+
+def plot_cm(cm, labels):
+    percent = (cm*100.0)/np.array(np.matrix(cm.sum(axis=1)).T)  # Derp, I'm sure there's a better way
+    print 'Confusion Matrix Stats'
+    for i, label_i in enumerate(labels):
+        for j, label_j in enumerate(labels):
+            print "%s/%s: %.2f%% (%d/%d)" % (label_i, label_j, (percent[i][j]), cm[i][j], cm[i].sum())
+    fig = plt.figure()
+    ax = fig.add_subplot(111)
+    ax.grid(b=False)
+    cax = ax.matshow(percent, cmap='coolwarm')
+    pylab.title('Confusion matrix of the classifier')
+    fig.colorbar(cax)
+    ax.set_xticklabels([''] + labels)
+    ax.set_yticklabels([''] + labels)
+    pylab.xlabel('Predicted')
+    pylab.ylabel('True')
+    pylab.show()
+
+
+plot_cm(cm, labels)

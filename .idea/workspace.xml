@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a187123e-154f-4530-825f-2351f2411a94" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DGAClassificationAll.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DGAClassification.py" afterPath="$PROJECT_DIR$/DGAClassificationClass.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DGAClassificationAll.py" afterPath="$PROJECT_DIR$/DGAClassificationAll.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DGA.iws" />
@@ -17,7 +16,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DGA$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1436211085201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dga_wordlists" />
-    <SUITE FILE_PATH="coverage/DGA$DGAClassificationAll.coverage" NAME="DGAClassificationAll Coverage Results" MODIFIED="1439673171404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DGA$DGAClassificationAll.coverage" NAME="DGAClassificationAll Coverage Results" MODIFIED="1439688111696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DGA$tinba.coverage" NAME="tinba Coverage Results" MODIFIED="1416595507642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dga_algorithms" />
     <SUITE FILE_PATH="coverage/DGA$PushDO.coverage" NAME="PushDO Coverage Results" MODIFIED="1415382755196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dga_algorithms" />
     <SUITE FILE_PATH="coverage/DGA$GameoverZeus.coverage" NAME="GameoverZeus Coverage Results" MODIFIED="1415381734161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -40,7 +39,7 @@
       <file leaf-file-name="DGAClassificationClass.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DGAClassificationClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="48" selection-start="0" selection-end="5631" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="2900">
+            <state line="139" column="0" selection-start="5631" selection-end="5631" vertical-scroll-proportion="0.0" vertical-offset="2162" max-vertical-offset="2780">
               <folding />
             </state>
           </provider>
@@ -49,7 +48,7 @@
       <file leaf-file-name="DGAClassificationAll.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DGAClassificationAll.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="39" selection-start="4816" selection-end="4816" vertical-scroll-proportion="2.7745664" vertical-offset="0" max-vertical-offset="2900">
+            <state line="161" column="37" selection-start="6620" selection-end="6620" vertical-scroll-proportion="0.72254336" vertical-offset="2595" max-vertical-offset="3460">
               <folding>
                 <element signature="e#23#42#0" expanded="true" />
               </folding>
@@ -613,13 +612,18 @@
       <created>1437924736452</created>
       <updated>1437924736452</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="update">
+      <created>1439683201238</created>
+      <updated>1439683201238</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="23" width="1280" height="1001" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286517" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -635,7 +639,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286517" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -749,14 +752,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DGAClassificationClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="48" selection-start="0" selection-end="5631" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="2900">
+        <state line="139" column="0" selection-start="5631" selection-end="5631" vertical-scroll-proportion="0.0" vertical-offset="2162" max-vertical-offset="2780">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DGAClassificationAll.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="39" selection-start="4816" selection-end="4816" vertical-scroll-proportion="2.7745664" vertical-offset="0" max-vertical-offset="2900">
+        <state line="161" column="37" selection-start="6620" selection-end="6620" vertical-scroll-proportion="0.72254336" vertical-offset="2595" max-vertical-offset="3460">
           <folding>
             <element signature="e#23#42#0" expanded="true" />
           </folding>
