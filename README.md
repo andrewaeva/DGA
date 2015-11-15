@@ -1,7 +1,9 @@
-###DGA
+DGA
+-
 The repository that contains the algorithms for generating domain names, dictionaries of malicious domain names.
 Developed to research the possibility of applying machine learning and neural networks to detect and classify malicious domains.
-###List of wordlist's
+List of wordlist's
+-
 #####alexa.csv
 ```
 alexa top million
@@ -55,8 +57,8 @@ domain's from Ramdo.cpp
 7 - matsnu
 8 - ramdo
 ```
-###About
-
+About
+-
 Author: Andrey Abakumov ( andrewaeva@ya.ru )
 
 License: GNU General Public License v2 (http://opensource.org/licenses/gpl-2.0.php)
