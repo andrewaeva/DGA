@@ -1,6 +1,6 @@
 __author__ = 'andrewa'
 #-*- coding: utf-8 -*-
-#alexa = open('../alexa.csv', 'r').read().split('\n')
+#alexa = open('../help/alexa.csv', 'r').read().split('\n')
 #alexa_domain = []
 #for i in alexa:
 #    i = i.split(',')
@@ -12,11 +12,11 @@ __author__ = 'andrewa'
 #opendns_top = open('opendns-top-domains.txt', 'r').read().split('\n')
 #opendns_random.extend(alexa_domain)
 #opendns_random.extend(opendns_top)
-#C = open('../all_legit.txt', 'w')
+#C = open('../all_legit2.txt', 'w')
 #C.seek(0)
-#for i in opendns_random:
+#for i in alexa_domain:
 #    C.write(i+' 0\n')
-
+exit(0)
 ######################################################
 cryptolocker = open('cryptolocker.txt', 'r').read().split('\n')
 zeus = open('zeus.txt', 'r').read().split('\n')
