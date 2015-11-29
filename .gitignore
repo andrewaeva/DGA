@@ -6,6 +6,14 @@
 .idea/
 # if you remove the above rule, at least ignore the following:
 
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
 # User-specific stuff:
 # .idea/workspace.xml
 # .idea/tasks.xml
