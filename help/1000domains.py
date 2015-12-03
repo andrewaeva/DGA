@@ -8,13 +8,13 @@ dataframe_dict = {'alexa': [], 'conficker': [], 'cryptolocker': [], 'zeus': [], 
 for i, v in dataframe_dict.iteritems():
     if i == 'alexa':
         v = pd.read_csv('../all_legit.txt', names=['uri'], header=None, encoding='utf-8')
-        v['domain'] = v.applymap(lambda x: x.split('.')[0].strip().lower())
+        v['domain'] = v.applymap(lambda x: x.split(" ")[0].strip().lower())
         del v['uri']
         v['class'] = 'legit'
         dataframe_dict[i] = v
     else:
         v = pd.read_csv('../dga_wordlists/' + i + '.txt', names=['uri'], header=None, encoding='utf-8')
-        v['domain'] = v.applymap(lambda x: x.split('.')[0].strip().lower())
+        v['domain'] = v.applymap(lambda x: x.strip().lower())
         del v['uri']
         v['class'] = 'dga'
         dataframe_dict[i] = v
