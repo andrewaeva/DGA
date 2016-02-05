@@ -83,6 +83,7 @@ verbs = ['people', 'history', 'way', 'art', 'money', 'world', 'information', 'ma
          'purple', 'ruin', 'ship', 'skirt', 'slice', 'snow', 'specialist', 'stroke', 'switch', 'trash', 'tune', 'zone',
          'anger', 'award', 'bid', 'bitter', 'boot', 'bug', 'camp', 'candy', 'carpet', 'cat', 'champion', 'channel',
          'clock', 'comfort', 'cow', 'crack', 'engineer', 'entrance', 'fault', 'grass', 'guy']
+
 nouns = ['is', 'are', 'has', 'get', 'see', 'need', 'know', 'would', 'find', 'take', 'want', 'does', 'learn', 'become',
          'come', 'include', 'thank', 'provide', 'create', 'add', 'understand', 'consider', 'choose', 'develop',
          'remember', 'determine', 'grow', 'allow', 'supply', 'bring', 'improve', 'maintain', 'begin', 'exist', 'tend',

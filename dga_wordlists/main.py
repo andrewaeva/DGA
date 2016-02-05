@@ -1,20 +1,20 @@
 __author__ = 'andrewa'
-#-*- coding: utf-8 -*-
-#alexa = open('../help/alexa.csv', 'r').read().split('\n')
-#alexa_domain = []
-#for i in alexa:
+# -*- coding: utf-8 -*-
+# alexa = open('../help/alexa.csv', 'r').read().split('\n')
+# alexa_domain = []
+# for i in alexa:
 #    i = i.split(',')
 #    try:
 #        alexa_domain.append(i[1])
 #    except:
 #        pass
-#opendns_random = open('opendns-random-domains.txt', 'r').read().split('\n')
-#opendns_top = open('opendns-top-domains.txt', 'r').read().split('\n')
-#opendns_random.extend(alexa_domain)
-#opendns_random.extend(opendns_top)
-#C = open('../all_legit2.txt', 'w')
-#C.seek(0)
-#for i in alexa_domain:
+# opendns_random = open('opendns-random-domains.txt', 'r').read().split('\n')
+# opendns_top = open('opendns-top-domains.txt', 'r').read().split('\n')
+# opendns_random.extend(alexa_domain)
+# opendns_random.extend(opendns_top)
+# C = open('../all_legit2.txt', 'w')
+# C.seek(0)
+# for i in alexa_domain:
 #    C.write(i+' 0\n')
 exit(0)
 ######################################################
@@ -38,26 +38,26 @@ for i in dds:
         cryptolocker.append(i[0].replace('"', ''))
     if i[1] == '"goz"':
         goz.append(i[0].replace('"', ''))
-        goz_txt.write(i[0].replace('"', '')+'\n')
+        goz_txt.write(i[0].replace('"', '') + '\n')
     if i[1] == '"newgoz"':
         new_goz.append(i[0].replace('"', ''))
-        new_goz_txt.write(i[0].replace('"', '')+'\n')
+        new_goz_txt.write(i[0].replace('"', '') + '\n')
 C = open('../all_dga.txt', 'w')
 C.seek(0)
 for i in cryptolocker:
-    C.write(i+' 1\n')
+    C.write(i + ' 1\n')
 for i in zeus:
-    C.write(i+' 2\n')
+    C.write(i + ' 2\n')
 for i in pushdo:
-    C.write(i+' 3\n')
+    C.write(i + ' 3\n')
 for i in rovnix:
-    C.write(i+' 4\n')
+    C.write(i + ' 4\n')
 for i in tinba:
-    C.write(i+' 5\n')
+    C.write(i + ' 5\n')
 for i in conficker:
-    C.write(i.strip()+' 6\n')
+    C.write(i.strip() + ' 6\n')
 for i in matsnu:
-    C.write(i+' 7\n')
+    C.write(i + ' 7\n')
 for i in ramdo:
-    C.write(i+' 8\n')
+    C.write(i + ' 8\n')
 C.close()

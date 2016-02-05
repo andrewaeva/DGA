@@ -25,7 +25,6 @@ def getDate():
 
 
 def seeder(index, salt):
-    ############
     edi = salt + index
     edx = 0
     ecx = 0x03E8
@@ -62,10 +61,7 @@ def generateDomain(hashlet):
     print "Generating domain"
     result = []
     print "Hashlet : %x" % hashlet
-    #0042fef6:
-    ##########
     ecx = hashlet
-    ##########
     cl = 0
     dl = 0
     bl = 0
@@ -124,7 +120,7 @@ def engine(salt=0x35190501, maxiter=100000):
         hashstash = [int(hashit[:8], 16), int(hashit[8:16], 16), int(hashit[16:24], 16), int(hashit[24:], 16)]
         domain = ''
         if True:
-        #while len(domain) < 0x10 :
+            #while len(domain) < 0x10 :
             index = 0
             for hashlet in hashstash:
                 print "Hashlet : %x" % hashlet
@@ -132,7 +128,7 @@ def engine(salt=0x35190501, maxiter=100000):
                 print "\t[%d] Domain : %s" % (index, domain)
                 index += 1
         print "[%d] Domain : %s\n" % (i, domain)
-        #########################
+
         if (edx & 3 == 0):
             domain += ".\x63\x6F\x6D"
         elif (edx % 3 != 0 ):
@@ -142,7 +138,7 @@ def engine(salt=0x35190501, maxiter=100000):
                 domain += ".\x62\x69\x7A"
         else:
             domain += ".\x6F\x72\x67"
-            #########################
+
         domains.append(domain)
     return domains
 

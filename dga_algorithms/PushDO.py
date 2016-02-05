@@ -1,7 +1,8 @@
+import hashlib
 import os
+
 import datetime
 import time
-import hashlib
 
 
 def rc4crypt(data, key):
@@ -46,21 +47,21 @@ def generateSeed(a1, a2, a3):
     v8 = "1F1C1F1E1F1E1F1F1E1F1E1F"
     v8 = v8.decode("hex")
     result = 0
-    if ( a1 > 0 ):
-        if ( (a2 - 1) <= 0xB ):
-            if ((a3 - 1) <= 0x1E ):
+    if (a1 > 0):
+        if ((a2 - 1) <= 0xB):
+            if ((a3 - 1) <= 0x1E):
                 v4 = (a1 & 0x80000003) == 0
-                if ( (a1 & 0x80000003) < 0 ):
+                if ((a1 & 0x80000003) < 0):
                     v4 = (((a1 & 0x80000003) - 1) | 0xFFFFFFFC) == -1
-                if ( v4 ):
+                if (v4):
                     v8[11] = chr(0x1D)
                 v5 = 0
-                if ( a2 > 1 ):
-                    v7 = v8 #&v8
+                if (a2 > 1):
+                    v7 = v8  # &v8
                     v6 = a2 - 1
                     i7 = 0
                     while (v6):
-                        v5 += ord(v7[i7]) #*v7
+                        v5 += ord(v7[i7])  # *v7
                         i7 += 1
                         v6 -= 1
                 ecx = 365 * (a1 - (a1 / 4))
@@ -132,13 +133,13 @@ def initDGA(salt):
     domains = []
     day, month, year = getDate()
     seed = generateSeed(year, month, day)
-    seed = generateString(salt, seed)#.decode("hex")
+    seed = generateString(salt, seed)  # .decode("hex")
     for i in range(100000):
         hashit = hasher(seed)
         domain = generateDomain(hashit.decode("hex"), 0x0A)
         seed = ("%08x" % (int(hashit[:8], 16) + 0x01000000))
         domains.append(domain)
-        #time.sleep(1)
+        # time.sleep(1)
     return domains
 
 

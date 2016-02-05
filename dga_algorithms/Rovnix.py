@@ -1,6 +1,7 @@
-__author__ = 'andrewa'
-import datetime
 import random
+
+import datetime
+
 usdeclar = open("../help/usdeclar.txt", 'r').read().strip().split()
 for i in xrange(0, len(usdeclar)):
     usdeclar[i] = ''.join(e for e in usdeclar[i] if e.isalnum())
@@ -24,16 +25,16 @@ def generateSeed(a1, a2, a3):
     v8 = "1F1C1F1E1F1E1F1F1E1F1E1F"
     v8 = v8.decode("hex")
     result = 0
-    if ( a1 > 0 ):
-        if ( (a2 - 1) <= 0xB ):
-            if ((a3 - 1) <= 0x1E ):
+    if (a1 > 0):
+        if ((a2 - 1) <= 0xB):
+            if ((a3 - 1) <= 0x1E):
                 v4 = (a1 & 0x80000003) == 0
-                if ( (a1 & 0x80000003) < 0 ):
+                if ((a1 & 0x80000003) < 0):
                     v4 = (((a1 & 0x80000003) - 1) | 0xFFFFFFFC) == -1
-                if ( v4 ):
+                if (v4):
                     v8[11] = chr(0x1D)
                 v5 = 0
-                if ( a2 > 1 ):
+                if (a2 > 1):
                     v7 = v8
                     v6 = a2 - 1
                     i7 = 0
@@ -46,6 +47,7 @@ def generateSeed(a1, a2, a3):
                 result = a3 + v5 + ecx + eax
 
     return result
+
 
 day, month, year = getDate()
 seed = generateSeed(year, month, day)
@@ -72,6 +74,7 @@ def choose_word():
               0xFFFF) ^ const1) & 0xFFFF)
     rem = seed % len(usdeclar)
     return usdeclar[rem]
+
 
 for i in xrange(0, 100000):
     print generate_domain()
